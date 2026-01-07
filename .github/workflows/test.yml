@@ -30,4 +30,4 @@ jobs:
                   username: ${{ secrets.DHI_DOCKERHUB_USERNAME }}
                   password: ${{ secrets.DHI_DOCKERHUB_TOKEN }}
 
-            - run: docker pull dhi.io/aspnetcore:10.0.1-alpine3.22@sha256:467fbea286437c7345fd5612dbb975e8debae801ab5d93398b5db69fa163d4d8
+            - run: docker pull dhi.io/node:24-debian13
